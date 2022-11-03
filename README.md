@@ -1,3 +1,3 @@
 # AWS-Hands-On-Labs
 
-This repository contains my hands on labs and projects deployed using AWS resources.
+In this lab, I implemented content delivery using AWS cloudfront. Objects were uploaded into S3 bucket, including an error.html and block.html file. After the necessary bucket policy was created, the url of the object was accessed against a web browser and the content was viewed. Using the cloudfront domain name, the same object was viewed against a web browser and the relative render time was compared. It was observed that cloudfront rendered the content faster compared to the object url used earlier. An error page distribution was also configured and geostriction was implemented.
